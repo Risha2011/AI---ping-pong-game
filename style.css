@@ -24,11 +24,11 @@
     display: inline-block;
     width: 45%;
 }
-video{
-    background: url(game_console.png);
-    background-size: cover;
-    background-position: center;
-    padding: 25px;
+canvas{
+background: url(game_console);
+background-size: cover;
+background-position: center;
+padding: 25px;
 }
 .right_footer{
     bottom: 0;
@@ -38,4 +38,7 @@ video{
     background-color: rgb(104, 99, 99);
     width: 100%;
     color: white;
+}
+body{
+    text-align: center;
 }
